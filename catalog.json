@@ -1,0 +1,276 @@
+{
+  "_info": "Online-Katalog für den SteamCMD Helper von FGSeRaser (github.com/FGSeRaser). Neue Server einfach unten in 'servers' ergänzen – der Helper lädt sie beim Start. Bereits bekannte App-IDs werden übersprungen.",
+  "version": 1,
+  "servers": [
+    {
+      "name": "SCUM",
+      "appid": 3792580,
+      "category": "Survival",
+      "login": false,
+      "exe": "SCUM\\Binaries\\Win64\\SCUMServer.exe",
+      "args": "-log -port=7777 -MaxPlayers=64",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "ASKA",
+      "appid": 3246670,
+      "category": "Survival",
+      "login": false,
+      "exe": "AskaServer.exe",
+      "args": "-propertiesPath \"server properties.txt\"",
+      "note": "Einstellungen stehen in \"server properties.txt\" im Serverordner.",
+      "beta": ""
+    },
+    {
+      "name": "Sunkenland",
+      "appid": 2667530,
+      "category": "Survival",
+      "login": false,
+      "exe": "Sunkenland-DedicatedServer.exe",
+      "args": "-nographics -batchmode -maxPlayerCapacity 8 -port 27015 -queryport 27016",
+      "note": "Für eine bestehende Welt -worldGuid \"DEINE-WELT-GUID\" ergänzen. Nach dem ersten Download einmal aktualisieren.",
+      "beta": ""
+    },
+    {
+      "name": "VEIN",
+      "appid": 2131400,
+      "category": "Survival",
+      "login": false,
+      "exe": "",
+      "args": "-log -Port=7777 -QueryPort=27015",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Der Herr der Ringe: Return to Moria",
+      "appid": 3349480,
+      "category": "Survival",
+      "login": false,
+      "exe": "MoriaServer.exe",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Frozen Flame",
+      "appid": 1348640,
+      "category": "Survival",
+      "login": false,
+      "exe": "",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Smalland: Survive the Wilds",
+      "appid": 808040,
+      "category": "Survival",
+      "login": false,
+      "exe": "",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Dead Matter",
+      "appid": 2584780,
+      "category": "Survival",
+      "login": false,
+      "exe": "DeadMatter\\Binaries\\Win64\\DeadMatterServer-Win64-Test.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "No Love Lost",
+      "appid": 2833050,
+      "category": "Survival",
+      "login": false,
+      "exe": "NoLoveLost\\Binaries\\Win64\\NoLoveLostServer-Win64-Shipping.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "No One Survived",
+      "appid": 2329680,
+      "category": "Survival",
+      "login": false,
+      "exe": "WRSHServer.exe",
+      "args": "-server -log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Voyagers of Nera",
+      "appid": 3937860,
+      "category": "Survival",
+      "login": false,
+      "exe": "BoatGame\\Binaries\\Win64\\BoatGameServer-Win64-Shipping.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Windrose",
+      "appid": 4129620,
+      "category": "Survival",
+      "login": false,
+      "exe": "R5\\Binaries\\Win64\\WindroseServer-Win64-Shipping.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Zombie Survival Game Online",
+      "appid": 2536350,
+      "category": "Survival",
+      "login": false,
+      "exe": "ZSGO\\Binaries\\Win64\\ZSGOServer-Win64-Shipping.exe",
+      "args": "-server -log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Nightingale",
+      "appid": 3796810,
+      "category": "Survival",
+      "login": false,
+      "exe": "",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Subsistence",
+      "appid": 1362640,
+      "category": "Survival",
+      "login": false,
+      "exe": "",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Stormworks: Build and Rescue",
+      "appid": 1247090,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "server64.exe",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Foundry",
+      "appid": 2915550,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "FoundryDedicatedServer.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Cubic Odyssey",
+      "appid": 3858450,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "server\\CubicOdysseyServer.exe",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "TerraTech Worlds",
+      "appid": 2533070,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "TT2\\Binaries\\Win64\\TT2Server-Win64-Shipping.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "StarRupture",
+      "appid": 3809400,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Astro Colony",
+      "appid": 2662210,
+      "category": "Aufbau & Sandbox",
+      "login": false,
+      "exe": "",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Portal Knights",
+      "appid": 374040,
+      "category": "Aufbau & Sandbox",
+      "login": true,
+      "exe": "dedicated_server\\pk_dedicated_server.exe",
+      "args": "-config server_config.json -log server.log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Midnight Ghost Hunt",
+      "appid": 1118810,
+      "category": "Shooter",
+      "login": false,
+      "exe": "MidnightGhostHunt\\Binaries\\Win64\\MidnightGhostHuntServer-Win64-Shipping.exe",
+      "args": "-server -log",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "The Ship: Murder Party",
+      "appid": 2403,
+      "category": "Source & GoldSrc",
+      "login": true,
+      "exe": "srcds.exe",
+      "args": "-console -game ship",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Wreckfest 2",
+      "appid": 3519390,
+      "category": "Rennen & Simulation",
+      "login": false,
+      "exe": "",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Risk of Rain 2",
+      "appid": 1180760,
+      "category": "Sonstige",
+      "login": false,
+      "exe": "Risk of Rain 2.exe",
+      "args": "",
+      "note": "",
+      "beta": ""
+    },
+    {
+      "name": "Swords 'n Magic and Stuff",
+      "appid": 2058450,
+      "category": "Sonstige",
+      "login": false,
+      "exe": "SNM2020\\Binaries\\Win64\\SNMASServer-Win64-Shipping.exe",
+      "args": "-log",
+      "note": "",
+      "beta": ""
+    }
+  ]
+}
